@@ -1,0 +1,67 @@
+BlogSphere
+
+A full-stack blog application built with FastAPI (backend) and React (frontend). Supports user authentication, admin management, and blog CRUD operations.
+
+
+1.Features
+-----------------------
+User registration and login
+JWT authentication
+Admin panel for managing users and posts
+Create, update, delete, and view blog posts
+Search posts
+Responsive frontend with React
+
+
+2.Tech Stack
+----------------------------------
+Backend: FastAPI, SQLAlchemy, SQLite
+Frontend: React, CSS
+Authentication: JWT
+Database: SQLite
+
+Setup Backend
+-------------------
+cd backend
+# Create virtual environment
+python -m venv env
+
+# Activate virtual environment Linux
+source env/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+python main.py
+
+
+Setup Frontend
+--------------------
+cd ../frontend
+
+# Install dependencies
+npm install
+
+# Start frontend
+npm start
+
+
+Test Users
+-----------------
+| Username | Password | Role  |
+| -------- | -------- | ----- |
+| admin    | admin123 | Admin |
+| user     | user123  | User  |
+
+
+
+Screenshots
+-----------------
+### Admin UI
+![Admin UI](assets/images/admin-ui.png)
+
+### User UI
+![User UI](assets/images/user-ui.png)
+
+### Swagger API
+![Swagger UI](assets/images/swagger.png)
